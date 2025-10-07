@@ -65,7 +65,6 @@ plt.xlabel('Valor Mediano do Imóvel ($1000s)')
 plt.savefig('boxplot_medv.png', dpi=300, bbox_inches='tight')
 plt.show()
 
-
 print("\n--- 3.2 Análise de Correlação ---")
 corr_matrix = df.corr()
 plt.figure(figsize=(12, 9))
@@ -95,7 +94,6 @@ plt.xlabel('% de Status Inferior da População')
 plt.ylabel('Valor Mediano do Imóvel ($1000s)')
 plt.savefig('scatter_lstat_vs_medv.png', dpi=300, bbox_inches='tight')
 plt.show()
-
 
 print("\n--- 3.3 Demonstração de Hipóteses ---")
 print("\n--- Hipótese 1: Imóveis que margeiam o rio Charles são mais caros ---")
